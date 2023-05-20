@@ -1,0 +1,17 @@
+.booking{
+	text-decoration: none;
+	border-radius: 7px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	width: 70%;
+	color:#f0d8e0;
+	font-size: 20px;
+	border: 5px solid #9c5970;
+	border-radius: 50px;
+	background-color: #b88ca5;
+}
+.test-5-book{
+	color: #f0d8e0;
+	background-color: #9c5970;
+	border-radius: 50px;
+}
