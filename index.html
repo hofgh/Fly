@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/otz.css">
+</head>
+<body>
+    <header class="wrap">
+        <div class="container">
+            <div class="wrap-header">
+                <img src="img/logo.png" alt="Avialines" class="logo wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
+                <div class="menu">
+                    <a href="#contacts" class="menu-link wow animate__animated animate__fadeIn" data-wow-delay="0.4s">Контакты</a>
+                    <a href="#actions" class="menu-link wow animate__animated animate__fadeIn" data-wow-delay="0.6s">Акции</a>
+                    <a href="login.html" class="menu-link wow animate__animated animate__fadeIn" data-wow-delay="1s"><button class="menu-button wow animate__animated animate__fadeIn">Войти в личный кабинет</button></a>
+                </div>
+            </div>
+        </div>
+        <section class="section booking wow animate__animated animate__fadeIn" data-wow-delay="2s" id="booking">
+            <div class="container">
+               <div class="book-main">
+                   <div class="buy"><h2 class="buy-title">Авиабилеты</h2></div>
+                   <input type="text" class="input input-way" placeholder="Откуда">
+                   <input type="text" class="input input-where" placeholder="Куда">
+
+                   <input type="text" class="input input-number" placeholder="Когда" onfocus="this.type='date'" onblur="if(this.value==''){this.type='text'}">
+                   <input type="text" class="input input-number" placeholder="Обратно" onfocus="this.type='date'" onblur="if(this.value==''){this.type='text'}">
+                   <p><select name="select-pass" id="select" required="required">
+                    <option selected value="s1">1</option>
+                    <option value="s2">2</option>
+                    <option value="s3">3</option>
+                    <option value="s4">4</option>
+                    <option value="s5">5</option>
+                    <option value="s6">6</option>
+                    <option value="s7">7</option>
+                    <option value="s8">8</option>
+                </select></p>
+                <a href="search.html">
+                    <button class="button-ticket"><div class="button-text">Найти билеты</div></button>
+                </div>
+            </div>
+        </a>
+    </section>
+</header>
+<main>
+   <section class="section projects">
+    <div class="container">
+        <h2 class="section-title wow animate__animated animate__fadeIn" data-wow-delay="0.2s">Наши преимущества</h2>
+        <div class="swiper projects-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide projects-slide">
+                <img src="img/park.jpg" alt="park”" class="project-image">
+                <div class="project-text">
+                    <h3 class="project-title">Объемный багаж не проблема!</h3>
+                    <div class="project-feetback">
+                        <div class="project-description">
+                            <h4 class="project-subtitle">Описание</h4>
+                            <p class="project-paragraph">Можете взять с собой в поездку все самое нужное и не только. В нашей авиакомпании разрешен багаж весом до 50 килограмм!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide projects-slide">
+                <img src="img/ekip.jpg" alt="ekip" class="project-image">
+                <div class="project-text">
+                    <h3 class="project-title">Лучший экипаж!</h3>
+                    <div class="project-feetback">
+                        <div class="project-description">
+                            <h4 class="project-subtitle">Описание</h4>
+                            <p class="project-paragraph">Наша авиакомпания набирает в экипаж только самых умных и обоятельных стюардесс, а так же опытных пилотов со стажем не менее 10 лет!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide projects-slide">
+                <img src="img/samlet.jpg" alt="samlet" class="project-image">
+                <div class="project-text">
+                    <h3 class="project-title">Лучшие самолеты!</h3>
+                    <div class="project-feetback">
+                        <div class="project-description">
+                            <h4 class="project-subtitle">Описание</h4>
+                            <p class="project-paragraph">Мы используем современные технологии по умолчанию, так как наши клиенты заслуживают всего наилучшего. В нашей авиакомпании нет места старым кукурузникам, у нас только новейшие самолеты!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide projects-slide">
+                <img src="img/salon.jpg" alt="salon" class="project-image">
+                <div class="project-text">
+                    <h3 class="project-title">Обслуживание самолетов</h3>
+                    <div class="project-feetback">
+                        <div class="project-description">
+                            <h4 class="project-subtitle">Описание</h4>
+                            <p class="project-paragraph">Как только вы зайдёте внутрь любого из наших самолетов, вы увидите как все убрано и почищено после прошлого рейса. В нашик самолетах нет места грязи!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide projects-slide">
+                <img src="img/pork.jpg" alt="pork" class="project-image">
+                <div class="project-text">
+                    <h3 class="project-title">Забота о клиентах</h3>
+                    <div class="project-feetback">
+                        <div class="project-description">
+                            <h4 class="project-subtitle">Описание</h4>
+                            <p class="project-paragraph">Когда вы вернетесь из своего путешествия в наш аэропорт, вас будет ждать наш недорогой каршеринг. Благодаря этому вы сможете спокойно вернуться домой за небольшую плату.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="projects-pagination"></div>
+    </div>
+</div>
+</section>
+<section class="features" id="actions">
+    <div class="container">
+        <h2 class="section-title action wow animate__animated animate__fadeIn" data-wow-delay="0.2s">Акции</h2>
+        <div class="features-block">
+            <div class="features-item">
+                <img src="img/promotion1.jpg" alt="Акция 1" class="features-image wow animate__animated animate__fadeIn" data-wow-delay="0.4s">
+                <h3 class="features-title wow animate__animated animate__fadeIn" data-wow-delay="0.6s">Возврат и обмен билетов</h3>
+                <p class="features-text wow animate__animated animate__fadeIn" data-wow-delay="0.8s">У нас есть специальные правила для удобства наших клиентов. Благодаря этим правилам вы сможете отменить или перенести поездку на другую дату не заплатив за это ни рубля!</p>
+            </div>
+            <div class="features-item">
+                <img src="img/promotion2.jpg" alt="Акция 2" class="features-image wow animate__animated animate__fadeIn" data-wow-delay="0.4s">
+                <h3 class="features-title wow animate__animated animate__fadeIn" data-wow-delay="0.6s">Лучшие предложения</h3>
+                <p class="features-text wow animate__animated animate__fadeIn" data-wow-delay="0.8s">Если вы путешественник, то эта акция для вас! Билеты во все туристические и курортные места на 80% дешевле чем в других авикомпаниях.</p>
+            </div>
+            <div class="features-item">
+                <img src="img/promotion3.jpg" alt="Акция 3" class="features-image wow animate__animated animate__fadeIn" data-wow-delay="0.6">
+                <h3 class="features-title wow animate__animated animate__fadeIn" data-wow-delay="0.4s">Видеться чаще</h3>
+                <p class="features-text wow animate__animated animate__fadeIn" data-wow-delay="0.8s">Благодаря тому что наши полеты по России оплачиваются после приземления самолета, у вас будет возможность заплатить всего 60% стоимости билета, если вас встретит ваш родственник с паспортом, прописанный в данной области.</p>
+            </div>
+            <div class="features-item">
+                <img src="img/promotion4.jpg" alt="Акция 3" class="features-image wow animate__animated animate__fadeIn" data-wow-delay="0.6s">
+                <h3 class="features-title wow animate__animated animate__fadeIn" data-wow-delay="0.4s">Все включено!</h3>
+                <p class="features-text wow animate__animated animate__fadeIn" data-wow-delay="0.8s">Прямо в аэропорте любого туристического или курортного места вы сможете заплатить за отель или хостел всего 90% суммы. А так же по приземлении вам будет доступен один бесплатный прием пищи в нашем ресторане FlightFood!</p>
+            </div>
+        </div>
+    </div>
+    <div class="review" id="review">
+        <h1 align="center"  class="review1">Отзывы</h1>
+        <div class="review-card">
+          <h3>Mary Jackson</h3>
+          <p>08.05.23</p>
+          <p>"Уже пару лет пользуюсь приложением для бронирования перелётов. Всё для людей: и разные варианты продавцов билетов, и разные тарифы поддерживаются. Даже визовые и ковидные ограничения! Если что-то идёт не так (ну было однажды), поддержка выручает."</p>
+      </div><br>
+      <div class="review-card">
+          <h3>Agata Backer</h3>
+          <p>01.05.23</p>
+          <p>"Для поиска билетов пользуюсь только им - нравится классный дизайн, пользоваться приятно. Надеюсь, будет расширяться функционал поиска.
+            Хотелось бы добавить функцию:
+        возможность найти самые выгодные билеты с любой датой. Например, хочу слетать, скажем, в Болгарию, в следующем месяце на недельку и мне плюс минус всё равно в какие даты лететь - главное, чтобы туда и обратно через 5-7 дней, но по самой выгодной цене."</p>
+    </div><br>
+    <div class="review-card">
+      <h3>Adrian Elmers</h3>
+      <p>21.04.23</p>
+      <p>"Хочу поблагодарить службу поддержки Flight Pool «Ещё». Кроме помощи с ответами на стандартные вопросы по поездке (въезд, связь и другие мелочи) мне оказали помощь с организацией возврата средств за отменённый рейс, и привлекли внимание агенства, через которое билеты были куплены. Ребята всегда отвечали/ют очень оперативно и дают развёрнутые ответы. Очень приятный сервис. Советую друзьям и планирую продлить подписку, когда она закончится. Спасибо!"</p>
+  </div><br>
+  <div class="review-card">
+      <h3>Wednesday Addams</h3>
+      <p>13.04.23</p>
+      <p>"Спасибо! Благодаря вам я не только летаю по хорошим ценам, но и вернула деньги, которые не хотел отдавать подрядчик
+      Спасибо вам и вашему персоналу, вы самые лучшие!"</p>
+  </div><br>
+  <div class="review-card">
+      <h3>Katherine Owen</h3>
+      <p>02.04.23</p>
+      <p>"Очень часто заказываем билеты всей семьей на сайте Flight Pool. Очень удобно. Обычно подписываемся на нужные нам направления и даты и приходят оповещения о росте и снижении цен. Один раз мы так в Эмираты сэкономили на каждом билете на 11.000 рублей!!! То есть к примеру 25.03 было 36 000 (туда-обратно), а через день приходит оповещение, что цена упала на 11.000! Вот и купили быстренько билеты)) Удобно!"</p>
+  </div><br>
+  <div class="review-card">
+      <h3>Regina Palmer</h3>
+      <p>23.03.23</p>
+      <p>"Удобный и дешевый сервис покупки авиабилетов, нередко заказывала у них!"</p>
+  </div><br>
+</div>
+</section>
+</main>
+<section class="mailing-list">
+    <div class="container">
+        <div class="mailing-block">
+           <div class="mailing-wrap">
+            <h2 class="mailing-title wow animate__animated animate__fadeIn" data-wow-delay="0.2s">Подпишитесь на нашу рассылку!</h2>
+            <p class="mailing-text wow animate__animated animate__fadeIn" data-wow-delay="0.4s">Получайте первыми лучшие предложения и актуальные новости!</p>
+            <div class="subcribe">
+                <input type="text" class="input input-mailing wow animate__animated animate__fadeIn" data-wow-delay="0.5s" placeholder="Ваш адрес электронной почты">
+                <button class="mailing-button wow animate__animated animate__fadeIn" data-wow-delay="0.6s" id="card-button1">Подписаться</button>
+                <div class="mailing-policy">
+                    <p class="text-policy wow animate__animated animate__fadeIn" data-wow-delay="0.8s">Нажимая «Подписаться», я соглашаюсь с <a href="#" class="policy-link wow animate__animated animate__fadeIn" data-wow-delay="1">Политикой конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-block">
+            <img src="img/logo.png" class="logo footer-logo wow animate__animated animate__fadeIn" data-wow-delay="0.2s"/>
+            <div class="footer-privacy">
+                <h2 class="privacy-title wow animate__animated animate__fadeIn" data-wow-delay="0.4s">О доверии</h2>
+                <a class="footer-links wow animate__animated animate__fadeIn" data-wow-delay="0.5s" id="principe-info">Прицнипы бронирования</a>
+                <a href="#" class="footer-links wow animate__animated animate__fadeIn" data-wow-delay="0.5s">Вопросы и ответы</a>
+                <a href="#" class="footer-links wow animate__animated animate__fadeIn" data-wow-delay="0.6s">Правовые документы</a>
+                <a href="#" class="footer-links wow animate__animated animate__fadeIn" data-wow-delay="0.7s">Политика конфиденциальности</a>
+            </div>
+            <div class="contacts-social" id="contacts">
+                <h2 class="contacts-title wow animate__animated animate__fadeIn" data-wow-delay="0.8s">Контакты</h2>
+                <div class="contacts-phone">
+                    <h4 class="contacts-title wow animate__animated animate__fadeIn" data-wow-delay="0.9s">Телефон</h4>
+                    <a href="+7 999 123 45 67" class="contacts-link wow animate__animated animate__fadeIn" data-wow-delay="1s">8 (800) 100-10-10</a>
+                    <div class="contacts-mail">
+                        <h4 class="contacts-title wow animate__animated animate__fadeIn" data-wow-delay="1.1s">Почта</h4>
+                        <a href="ivanov@mail.ru" class="contacts-link wow animate__animated animate__fadeIn" data-wow-delay="1.2s">flight.pool@gmail.com</a>
+                        <div class="contacts-icons">
+                            <h4 class="icons-title wow animate__animated animate__fadeIn" data-wow-delay="1.3s">Наши социальные сети</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link wow animate__animated animate__fadeIn" data-wow-delay="1.5s"
+                                ><img src="img/insta.svg" alt="instagram "
+                                /></a>
+                                <a href="#" class="social-link wow animate__animated animate__fadeIn" data-wow-delay="1.6s"
+                                ><img src="img/fb.svg" alt="facebook"
+                                /></a>
+                                <a href="#" class="social-link wow animate__animated animate__fadeIn" data-wow-delay="1.8s"
+                                ><img src="img/vk.svg" alt="vkontakte"
+                                /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-header">
+            <p class="modal-title">Основные принципы работы сервиса</p>
+            <button class="close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-text"> - Вы выбираете удобную дату перелета</p>
+          <p class="modal-text"> - Ожидание 50% бронирования рейса</p>
+          <p class="modal-text"> - Мы перерассчитываем стоимость билетов, и высылаем на контактные телефоны ссылку для возврата части средств</p>
+      </div>
+  </div>
+</div>
+</footer>
+<div class="principe">
+ <div class="principe-main">
+     <h3 class="principe-title">Основные принципы работы сервиса:</h3>
+     <button class="close-button">&times;</button>
+     <div class="princ-list">
+         <ul>
+             <li>Выбрать удобную дату перелета.</li>
+             <li>Накопить больше 50% бронирований на рейс.</li>
+             <li>Получить снижение стоимости.</li>
+         </ul>
+         <div class="call"><h3 class="call-title">Наш слоган:</h3> <p  class="call-text">Мы сближаем города, вы - живете там, где хотите.</p></div>
+     </div>
+ </div>
+</div>
+<script src="js/wow.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/book.js"></script>
+</body>
+</html>
